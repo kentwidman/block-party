@@ -5,7 +5,7 @@ Blocks celebrities on instagram.
 1. Log into your instagram using a browser.
 2. Open the browsers devtools, and go to Network tab.
 3. Search/filter the request for "graphql" or "https://www.instagram.com/api/graphql"
-4. Find the X-Csrftoken header in the Request tab. Should be inbetween X-Asbd-Id and X-Fb-Friendly-Name
+4. Find the X-Csrftoken header in the Request tab. Should be inbetween X-Asbd-Id and X-Fb-Friendly-Name headers.
 5. Copy the Csrftoken into bp-block-them-all.js E.g. "const xCsrftoke = 'your-token';"
 6. Now copy the content of the updated bp-block-them-all.js script into your browser console.
 7. Your done.
